@@ -1,0 +1,26 @@
+Name,Loves n,Likes n,Dislikes n,Hates n,Loves b,Likes b,Dislikes b,Hates b
+Guide,,Clothier/Zoologist,Steampunker,Painter,,Forest,Ocean,
+Merchant,,Golfer/Nurse,Tax Collector,Angler,,Forest,Desert,
+Nurse,Arms Dealer,Wizard,Dryad/Party Girl,Zoologist,,The Hallow,Snow,
+Painter,Dryad,Party Girl,Cyborg/Truffle,,,Jungle,Forest,
+Dye Trader,,Arms Dealer/Painter,Steampunker,Pirate,,Desert,Forest,
+Zoologist,Witch Doctor,Golfer,Angler,Arms Dealer,,Forest,Desert,
+Golfer,Angler,Painter/Zoologist,Pirate,Merchant,,Forest,Underground,
+Party Girl,Wizard/Zoologist,Stylist,Merchant,Tax Collector,,The Hallow,Underground,
+Angler,,Demolitionist/Party Girl/Tax Collector,,Tavernkeep,,Ocean,Desert,
+Stylist,Dye Trader,Pirate,Tavernkeep,Goblin Tinkerer,,Ocean,Snow,
+Demolitionist,Tavernkeep,Mechanic,Arms Dealer/Goblin Tinkerer,,,Underground,Ocean,
+Dryad,,Witch Doctor/Truffle,Angler,Golfer,,Jungle,Desert,
+Tavernkeep,Demolitionist,Goblin Tinkerer,Guide,Dye Trader,,The Hallow,Snow,The Crimson
+Arms Dealer,Nurse,Steampunker,Golfer,Demolitionist,,Desert,Snow,
+Goblin Tinkerer,Mechanic,Dye Trader,Clothier,Stylist,,Underground,Jungle,The Crimson
+Witch Doctor,,Dryad/Guide,Nurse,Truffle,,Jungle,The Hallow,
+Clothier,Truffle,Tax Collector,Nurse,Mechanic,,Underground,The Hallow,
+Mechanic,Goblin Tinkerer,Cyborg,Arms Dealer,Clothier,,Snow,Underground,
+Tax Collector,Merchant,Party Girl,Demolitionist/Mechanic,Santa Claus,,Snow,The Hallow,
+Pirate,Angler,Tavernkeep,Stylist/Guide,,,Ocean,,
+Truffle,Guide,Dryad,Clothier,Witch Doctor,Mushroom,,,
+Wizard,Golfer,Merchant,Witch Doctor,Cyborg,,The Hallow,Ocean,
+Steampunker,Cyborg,Painter,Dryad/Wizard/Party Girl,,,Desert,Jungle,
+Cyborg,,Pirate/Stylist/Steampunker,Zoologist,Wizard,,Snow,Jungle,
+Santa Claus,,,,Tax Collector,Snow,,,Desert

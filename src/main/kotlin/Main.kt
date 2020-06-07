@@ -4,8 +4,8 @@ import java.io.File
 fun main() {
     val npcs = read()
 
-    val outputFile = File("C:\\Users\\Gabriel\\Desktop\\pastes\\npcs\\npcdata.json")
-    val outputMapFile = File("C:\\Users\\Gabriel\\Desktop\\pastes\\npcs\\npcdatamap.json")
+    val outputFile = File("npcdata.json")
+    val outputMapFile = File("npcdatamap.json")
 
     outputFile.createNewFile()
     outputFile.writeText(toPrettyJsonString(npcs))
@@ -19,22 +19,22 @@ fun main() {
 }
 
 fun read(): List<Npc> {
-    val lines = File("C:\\Users\\Gabriel\\Desktop\\pastes\\npcs\\npcdata.txt").readLines()
+    val lines = String(object {}.javaClass.getResourceAsStream("npcdata.csv").readBytes()).trim().lines()
     return lines.subList(1, lines.size).map {
         val parts = it.split(",")
         Npc(
                 name = parts[0],
                 neighbours = Preferences(
-                        loves = parts[1].split("/"),
-                        likes = parts[2].split("/"),
-                        dislikes = parts[3].split("/"),
-                        hates = parts[4].split("/")
+                        loves = parts[1].split("/").filterNot(String::isBlank),
+                        likes = parts[2].split("/").filterNot(String::isBlank),
+                        dislikes = parts[3].split("/").filterNot(String::isBlank),
+                        hates = parts[4].split("/").filterNot(String::isBlank)
                 ),
                 biomes = Preferences(
-                        loves = parts[5].split("/"),
-                        likes = parts[6].split("/"),
-                        dislikes = parts[7].split("/"),
-                        hates = parts[8].split("/")
+                        loves = parts[5].split("/").filterNot(String::isBlank),
+                        likes = parts[6].split("/").filterNot(String::isBlank),
+                        dislikes = parts[7].split("/").filterNot(String::isBlank),
+                        hates = parts[8].split("/").filterNot(String::isBlank)
                 )
         )
     }

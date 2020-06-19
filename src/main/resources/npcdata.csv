@@ -1,4 +1,4 @@
-Name,Loves n,Likes n,Dislikes n,Hates n,Loves b,Likes b,Dislikes b,Hates b
+name,lovesperson,likesperson,dislikesperson,hatesperson,lovesbiome,likesbiome,dislikesbiome,hatesbiome
 Guide,,Clothier/Zoologist,Steampunker,Painter,,Forest,Ocean,
 Merchant,,Golfer/Nurse,Tax Collector,Angler,,Forest,Desert,
 Nurse,Arms Dealer,Wizard,Dryad/Party Girl,Zoologist,,The Hallow,Snow,
